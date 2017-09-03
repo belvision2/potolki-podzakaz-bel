@@ -26,9 +26,9 @@
 
 
 <script type="text/javascript">
-var __cs = __cs || [];
+
 __cs.push(["setAccount", "zq3mgRF6BCXckar9FzRB0_lGUgoVaG8G"]);
-__cs.push(["setHost", "//server.comagic.ru/comagic"]);
+
 </script>
 <script type="text/javascript" async src="..//app.comagic.ru/static/cs.min.js"></script>
 
