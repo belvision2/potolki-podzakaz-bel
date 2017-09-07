@@ -164,7 +164,7 @@
 			<div class="b-shop-filtr__line1">Стоимость:&nbsp;&nbsp;&nbsp;от <div><input type="text" name="arrFilter_pf[TSENA][LEFT]" value=""></div> до <div><input type="text" name="arrFilter_pf[TSENA][RIGHT]" value=""></div></div>
 
 
-<input type="image" src="../../img/shop/but_podobrat.png" value="Фильтр" name="set_filter"><input type="hidden" name="set_filter" value="Y" />
+<img src="../../img/shop/but_podobrat.png"  data-toggle="modal" data-target="#want_zamer2">
 
 
 		</div><!-- /.b-shop-filtr -->
@@ -897,7 +897,7 @@
 
 				      <div class="t2 row t2_today">
 								<div class="t2_1 col-md-4 col-sm-4"><span>35</span>записались<br>на замер</div>
-								<div class="t2_2 col-md-4 col-sm-4"><span>0</span>Свободных<br>мест</div>
+								<div class="t2_2 col-md-4 col-sm-4"><span>5</span>Свободных<br>мест</div>
 								<div class="t2_3 col-md-4 col-sm-4"><span>23</span>договоров<br>заключилось</div>
 				      </div>
 
@@ -946,8 +946,27 @@
 		  </div>
 		</div><!-- want_zamer -->
 
+<div class="modal fade" id="want_zamer2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="../img/want_zamer/crest.png" alt="" /></span></button>
+		      </div>
+		      <div class="modal-body">
+		        <div class="modal_zag">Впишите Ваш телефон</div>
+			      <div class="butzamer">
+<form name="SIMPLE_FORM_13" action="http://xn--h1adclaew.xn--80aakmcqyh.xn--90ais/send.php" method="POST" enctype="multipart/form-data"><input type="hidden" name="sessid" id="sessid_1" value="6c852870467f3c141482ccd012f88615" /><input type="hidden" name="WEB_FORM_ID" value="13" />
+							<div class="butzamer_inp"><input type="text" value="" placeholder="Телефон" class="phonemask" required  name="phone" id="form_text_25"></div>
+					<div class="b-sms_but"><input id="template_smsskidka_but" src="/img/b_sms_but.png"  type="image" /></div>
+			<input name="web_form_apply" value="Y" type="hidden">
+</form>
+			      </div>
 
-		<div class="fly_girl animated boxHidded bounceOutRight" data-toggle="modal" data-target="#want_zamer"><div>0 мест</div></div>
+		      </div>
+		    </div>
+		  </div>
+		</div><!-- want_zamer2 -->
+		<div class="fly_girl animated boxHidded bounceOutRight" data-toggle="modal" data-target="#want_zamer"><div>5 мест</div></div>
 
 
 
