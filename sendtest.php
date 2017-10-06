@@ -34,7 +34,7 @@ $phrase = urldecode($where);
 
 
   $to  = 'vitaminiby@ya.ru';
- $klient  = '375296371155@sms.velcom.by,info@mks.by'; //375296371135@sms.velcom.by,info@mks.by
+ //$klient  = '375296371155@sms.velcom.by,info@mks.by'; //375296371135@sms.velcom.by,info@mks.by
 $subject = 'Обратный звонок - '.$user_phone.'';
 $from = "$name";
 // текст письма
@@ -106,13 +106,15 @@ $messageklient = '
 <p> '.$text.'</p>
 <p> '.$text2.'</p>
 
+
+
 	</body>
 </html>
 
 ';
 $headers .= 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-$headers .= "From: migkomservis@yandex.by";
+$headers .= "From: vitaminiby@ya.ru";
 if(empty($user_phone)) {
 }
 else {
@@ -120,5 +122,6 @@ mail($to, $subject, $message, $headers);
 mail($klient, $subject, $messageklient, $headers);
 $URL="index_otpr.html";
 header ("Location: $URL");
+    echo '1';
 }
 	?>
