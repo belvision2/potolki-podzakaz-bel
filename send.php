@@ -112,7 +112,7 @@ $messageklient = '
 ';
 $headers .= 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-$headers .= "From: migkomservis@yandex.by";
+$headers .= "From: vitaminiby@ya.ru";
 if(empty($user_phone)) {
 }
 else {
