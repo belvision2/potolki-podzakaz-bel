@@ -35,20 +35,12 @@ $phrase = urldecode($where);
 
   $to  = 'vitaminiby@ya.ru';
  $klient  = '375296126565@sms.velcom.by,vlad_abramov@tut.by'; //375296371135@sms.velcom.by,vlad_abramov@tut.by
-$subject = 'потолки 2 - '.$user_phone.'';
+$subject = 'потолки.подзаказ - '.$user_phone.'';
 $from = "$name";
 // текст письма
 $message = '
 <html>
-	<head><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108721273-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-108721273-1');
-</script>
+	<head>
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -86,15 +78,7 @@ $message = '
 ';
 $messageklient = '
 <html>
-	<head><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108721273-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-108721273-1');
-</script>
+	<head>
 
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
